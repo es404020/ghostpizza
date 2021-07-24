@@ -363,7 +363,7 @@ export default function Home() {
           <Flex justifyContent="center" width="full" alignItems="start" direction="column" borderRadius="10px" style={{
             border: "2px solid #E9F1FB",
           }} w="full" h="100" p="3">
-            <Flex direction="row" justifyContent="space-around"  >
+            <Flex direction="row" w="full" justifyContent="space-around"  >
               <Square bg="#fff2ee" borderRadius="5px" size={30}>
                 <MdDashboard size={20} color="#ee7d3e" mr="2" pr="5" />
               </Square>
