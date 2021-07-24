@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Flex, Text,Image, Spacer, Heading, Progress, Box, Button, List, ListItem, ListIcon, HStack, Icon, InputGroup, InputLeftElement, Input, Grid, Select, Table, Circle, Tbody, Tfoot, Tr, Th, Td, Avatar, Square } from "@chakra-ui/react"
+import { Flex, Text,Image, Spacer, Heading, Progress, Box, Button, List, ListItem, ListIcon, HStack, Icon, InputGroup, InputLeftElement, Input, Grid, Select, Table, Circle, Tbody, Tfoot, Tr, Th, Td, Avatar, Square, position } from "@chakra-ui/react"
 import Headers from '../components/layouts/Headers';
 import Body from '../components/layouts/Body';
 import { useRouter } from 'next/router';
@@ -270,10 +270,7 @@ export default function Home() {
                 <Th borderRightRadius="5px">Status</Th>
               </Tr>
 
-              <Tr fontSize="sm" fontWeight="semibold"  transition="transform .2s"  _hover={{
-            transform: 'scale(1.1)',
-            color: "#357ae2"
-        }}>
+              <Tr fontSize="sm" fontWeight="semibold" >
                 <Td><Square bg="#f5f8fd" borderRadius="5px" size={30}>
               <Image src="https://www.gizmochina.com/wp-content/uploads/2019/09/Apple-iPhone-11-1.jpg" />
               </Square></Td>
@@ -289,10 +286,7 @@ export default function Home() {
                   <Text display="block" fontSize="xs" color="#96a3c4" >18k viewers</Text></Td>
               </Tr>
 
-              <Tr fontSize="sm" fontWeight="semibold"  transition="transform .2s"  _hover={{
-            transform: 'scale(1.1)',
-            color: "#357ae2"
-        }}>
+              <Tr fontSize="sm" fontWeight="semibold" >
                 <Td><Square bg="#f5f8fd" borderRadius="5px" size={30}>
               <Image src="https://www.gizmochina.com/wp-content/uploads/2019/09/Apple-iPhone-11-1.jpg" />
               </Square>
@@ -432,10 +426,7 @@ export default function Home() {
             border: "2px solid #E9F1FB",
           }} w="100%"  p="3">
            
-            <Flex w="full" direction="row" justifyContent="space-around" mb="5"  transition="transform .2s"  _hover={{
-            transform: 'scale(1.1)',
-            color: "#357ae2"
-        }}  >
+            <Flex w="full" direction="row" justifyContent="space-around" mb="5"    >
               <Square bg="#f5f8fd" borderRadius="5px" size={30}>
               <Image src="https://www.gizmochina.com/wp-content/uploads/2019/09/Apple-iPhone-11-1.jpg" />
               </Square>
@@ -454,10 +445,7 @@ export default function Home() {
               </Flex>
 
             </Flex>
-            <Flex w="full" direction="row" justifyContent="space-around"  mb="5"  transition="transform .2s"  _hover={{
-            transform: 'scale(1.1)',
-            color: "#357ae2"
-        }}  >
+            <Flex w="full" direction="row" justifyContent="space-around"  mb="5"  >
               <Square bg="#f5f8fd" borderRadius="5px" size={30}>
               <Image src="https://www.gizmochina.com/wp-content/uploads/2019/09/Apple-iPhone-11-1.jpg" />
               </Square>
@@ -476,10 +464,7 @@ export default function Home() {
               </Flex>
 
             </Flex>
-            <Flex direction="row" w="full" justifyContent="space-around" mb="5"  transition="transform .2s"  _hover={{
-            transform: 'scale(1.1)',
-            color: "#357ae2"
-        }}  >
+            <Flex direction="row" w="full" justifyContent="space-around" mb="5"  >
               <Square bg="#f5f8fd" borderRadius="5px" size={30}>
                <Image src="https://www.gizmochina.com/wp-content/uploads/2019/09/Apple-iPhone-11-1.jpg" />
               </Square>
@@ -498,10 +483,7 @@ export default function Home() {
               </Flex>
 
             </Flex>
-            <Flex direction="row" w="full" justifyContent="space-around"   mb="5" transition="transform .2s"  _hover={{
-            transform: 'scale(1.1)',
-            color: "#357ae2"
-        }} >
+            <Flex direction="row" w="full" justifyContent="space-around"   mb="5" >
               <Square bg="#f5f8fd" borderRadius="5px" size={30}>
               <Image src="https://www.gizmochina.com/wp-content/uploads/2019/09/Apple-iPhone-11-1.jpg" />
               </Square>
