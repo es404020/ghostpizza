@@ -19,7 +19,7 @@ const Headers = () => {
         <Box boxShadow="md" p="4" position="fixed" width="100%" top="0" zIndex="2" mb="120px"  bg="white" >
             <Flex justify="space-between">
                 <Box p="2">
-                    <Heading size="md">Ghost Pizza</Heading>
+                    <Heading size="md">Ghost Piizza</Heading>
                 </Box>
 
                 <Box>
