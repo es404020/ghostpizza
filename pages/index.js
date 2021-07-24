@@ -75,21 +75,30 @@ export default function Home() {
 
 
               </ListItem>
-              <ListItem fontWeight="medium" fontSize="sm" color="#96a3c4">
+              <ListItem fontWeight="medium"  transition="transform .2s" fontSize="sm" color="#96a3c4" _hover={{
+            transform: 'scale(1.1)',
+            color: "#357ae2",
+        }}  >
 
 
                 <ListIcon as={MdReceipt} w={5} h={5} /> Orders
 
 
               </ListItem>
-              <ListItem fontWeight="medium" fontSize="sm" color="#96a3c4">
+              <ListItem fontWeight="medium" fontSize="sm" color="#96a3c4"  transition="transform .2s" fontSize="sm" color="#96a3c4" _hover={{
+            transform: 'scale(1.1)',
+            color: "#357ae2",
+        }} >
 
 
                 <ListIcon as={MdShoppingBasket} w={5} h={5} /> Products
 
 
               </ListItem>
-              <ListItem fontWeight="medium" fontSize="sm" color="#96a3c4">
+              <ListItem fontWeight="medium" fontSize="sm" color="#96a3c4"  transition="transform .2s" fontSize="sm" color="#96a3c4" _hover={{
+            transform: 'scale(1.1)',
+            color: "#357ae2"
+        }} >
 
 
                 <ListIcon as={MdSettings} w={5} h={5} /> Settings
@@ -105,14 +114,20 @@ export default function Home() {
 
               <Text color="#405281" fontWeight="bold" my="5" fontSize="md">Business</Text>
               <List spacing={7}>
-                <ListItem fontWeight="medium" fontSize="sm" color="#96a3c4" fontSize="sm">
+                <ListItem fontWeight="medium" fontSize="sm" color="#96a3c4" fontSize="sm"  transition="transform .2s"  _hover={{
+            transform: 'scale(1.1)',
+            color: "#357ae2"
+        }}>
 
 
                   <ListIcon as={MdSend} w={5} h={5} fontWeight="bold" /> Shipment
 
 
                 </ListItem>
-                <ListItem fontWeight="medium" fontSize="sm" color="#96a3c4">
+                <ListItem fontWeight="medium" fontSize="sm" color="#96a3c4"  transition="transform .2s"  _hover={{
+            transform: 'scale(1.1)',
+            color: "#357ae2"
+        }}>
                   <ListIcon as={MdPeople} w={5} h={5} /> Employee
 
 
@@ -158,7 +173,10 @@ export default function Home() {
           <Grid templateColumns="repeat(4,2fr)" gap="6">
             <Box borderRadius="10px" style={{
               border: "2px solid #E9F1FB",
-            }} w="100%" h="150" p="3" >
+            }} w="100%" h="150" p="3"  transition="transform .2s"  _hover={{
+              transform: 'scale(1.1)',
+              color: "#357ae2"
+          }} >
               <Flex direction="row" alignItems="baseline" justifyContent="space-between">
                 <MdShoppingBasket size={30} color="#ee7d3e" />
                 <Spacer />
@@ -170,7 +188,10 @@ export default function Home() {
             </Box>
             <Box borderRadius="10px" style={{
               border: "2px solid #E9F1FB",
-            }} w="100%" h="150" p="3" >
+            }} w="100%" h="150" p="3"  transition="transform .2s"  _hover={{
+              transform: 'scale(1.1)',
+              color: "#357ae2"
+          }} >
               <Flex direction="row" alignItems="baseline" justifyContent="space-between">
                 <AiFillPieChart size={30} color="#9c55e1" />
                 <Spacer />
@@ -182,7 +203,10 @@ export default function Home() {
             </Box>
             <Box borderRadius="10px" style={{
               border: "2px solid #E9F1FB",
-            }} w="100%" h="150" p="3" >
+            }} w="100%" h="150" p="3"  transition="transform .2s"  _hover={{
+              transform: 'scale(1.1)',
+              color: "#357ae2"
+          }} >
               <Flex direction="row" alignItems="baseline" justifyContent="space-between">
                 <MdPeople size={30} color="#55b391" />
                 <Spacer />
@@ -194,7 +218,10 @@ export default function Home() {
             </Box>
             <Box borderRadius="10px" style={{
               border: "2px solid #E9F1FB",
-            }} w="100%" h="150" p="3" >
+            }} w="100%" h="150" p="3"  transition="transform .2s"  _hover={{
+              transform: 'scale(1.1)',
+              color: "#357ae2"
+          }}>
               <Flex direction="row" alignItems="baseline" justifyContent="space-between">
                 <MdShoppingCart size={30} color="#f64444" />
                 <Spacer />
@@ -208,7 +235,7 @@ export default function Home() {
 
           <Box mt="9" borderRadius="10px" style={{
             border: "2px solid #E9F1FB",
-          }} w="100%" h="300" p="3">
+          }} w="100%" h="300" p="3"  >
 
             <Flex direction="row" justifyContent="space-between">
 
@@ -243,7 +270,10 @@ export default function Home() {
                 <Th borderRightRadius="5px">Status</Th>
               </Tr>
 
-              <Tr fontSize="sm" fontWeight="semibold">
+              <Tr fontSize="sm" fontWeight="semibold"  transition="transform .2s"  _hover={{
+            transform: 'scale(1.1)',
+            color: "#357ae2"
+        }}>
                 <Td><Square bg="#f5f8fd" borderRadius="5px" size={30}>
               <Image src="https://www.gizmochina.com/wp-content/uploads/2019/09/Apple-iPhone-11-1.jpg" />
               </Square></Td>
@@ -259,7 +289,10 @@ export default function Home() {
                   <Text display="block" fontSize="xs" color="#96a3c4" >18k viewers</Text></Td>
               </Tr>
 
-              <Tr fontSize="sm" fontWeight="semibold">
+              <Tr fontSize="sm" fontWeight="semibold"  transition="transform .2s"  _hover={{
+            transform: 'scale(1.1)',
+            color: "#357ae2"
+        }}>
                 <Td><Square bg="#f5f8fd" borderRadius="5px" size={30}>
               <Image src="https://www.gizmochina.com/wp-content/uploads/2019/09/Apple-iPhone-11-1.jpg" />
               </Square>
@@ -395,7 +428,10 @@ export default function Home() {
           <Flex justifyContent="space-between" width="full" alignItems="start" direction="column" borderRadius="10px" style={{
             border: "2px solid #E9F1FB",
           }} w="100%" height="270" p="3">
-            <Flex w="full" direction="row" justifyContent="space-around"   >
+            <Flex w="full" direction="row" justifyContent="space-around"  transition="transform .2s"  _hover={{
+            transform: 'scale(1.1)',
+            color: "#357ae2"
+        }}  >
               <Square bg="#f5f8fd" borderRadius="5px" size={30}>
               <Image src="https://www.gizmochina.com/wp-content/uploads/2019/09/Apple-iPhone-11-1.jpg" />
               </Square>
@@ -414,7 +450,10 @@ export default function Home() {
               </Flex>
 
             </Flex>
-            <Flex direction="row" w="full" justifyContent="space-around"   >
+            <Flex direction="row" w="full" justifyContent="space-around"  transition="transform .2s"  _hover={{
+            transform: 'scale(1.1)',
+            color: "#357ae2"
+        }}  >
               <Square bg="#f5f8fd" borderRadius="5px" size={30}>
                <Image src="https://www.gizmochina.com/wp-content/uploads/2019/09/Apple-iPhone-11-1.jpg" />
               </Square>
@@ -433,7 +472,10 @@ export default function Home() {
               </Flex>
 
             </Flex>
-            <Flex direction="row" w="full" justifyContent="space-around"  >
+            <Flex direction="row" w="full" justifyContent="space-around"  transition="transform .2s"  _hover={{
+            transform: 'scale(1.1)',
+            color: "#357ae2"
+        }} >
               <Square bg="#f5f8fd" borderRadius="5px" size={30}>
               <Image src="https://www.gizmochina.com/wp-content/uploads/2019/09/Apple-iPhone-11-1.jpg" />
               </Square>
