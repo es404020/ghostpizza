@@ -421,9 +421,12 @@ export default function Home() {
 
 
           </Flex>
+<Flex w="full" justifyContent="space-between" mb="3">
+<Text color="#273b71" fontWeight="bold" fontSize="md" mt="5" >Recent Orders</Text>
+<Text color="#357ae2" fontWeight="bold" fontSize="md" mt="5" >See All</Text>
+</Flex>
 
-
-          <Text color="#273b71" fontWeight="bold" fontSize="md" mt="5" mb="9">Recent Orders</Text>
+         
 
           <Flex justifyContent="space-between" width="full" alignItems="start" direction="column" borderRadius="10px" style={{
             border: "2px solid #E9F1FB",
