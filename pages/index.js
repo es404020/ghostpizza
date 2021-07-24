@@ -41,11 +41,11 @@ export default function Home() {
     //   <Body />
     // </Box>
 
-    <Box overflow="hidden" ml="2">
-      <Flex display="flex" direction="row" p="5" height="100vh" alignItems="baseline" boxSizing="border-box" position="relative" maxW="100vw">
+    <Box  ml="2">
+      <Flex display="flex" direction="row" p="5" height="100%" alignItems="baseline" boxSizing="border-box" position="relative" maxW="100vw">
         <Flex w="14%" height="95vh" direction="column" style={{
           borderRight: "2px solid #E9F1FB",
-          overflow: "hidden"
+       
         }} justifyContent="space-between">
 
 
@@ -145,8 +145,8 @@ export default function Home() {
 
         <Flex w="70%" height="95vh" direction="column" style={{
           borderRight: "2px solid #E9F1FB",
-          overflow: "hidden"
-        }} overflow="hidden" px={20} Flex="2">
+        
+        }}  px={20} Flex="2">
           {/* //bg="#f5f9fe" */}
           <InputGroup mb="5">
             <InputLeftElement pointerEvents="none" children={<SearchIcon color="gray.500" />} />
