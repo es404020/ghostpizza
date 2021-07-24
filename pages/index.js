@@ -362,7 +362,7 @@ export default function Home() {
 
           <Flex justifyContent="center" width="full" alignItems="start" direction="column" borderRadius="10px" style={{
             border: "2px solid #E9F1FB",
-          }} w="100%" h="100" p="3">
+          }} w="full" h="100" p="3">
             <Flex direction="row" justifyContent="space-around"  >
               <Square bg="#fff2ee" borderRadius="5px" size={30}>
                 <MdDashboard size={20} color="#ee7d3e" mr="2" pr="5" />
@@ -395,7 +395,7 @@ export default function Home() {
           <Flex justifyContent="space-between" width="full" alignItems="start" direction="column" borderRadius="10px" style={{
             border: "2px solid #E9F1FB",
           }} w="100%" height="270" p="3">
-            <Flex direction="row" justifyContent="space-around"   >
+            <Flex w="full" direction="row" justifyContent="space-around"   >
               <Square bg="#f5f8fd" borderRadius="5px" size={30}>
               <Image src="https://www.gizmochina.com/wp-content/uploads/2019/09/Apple-iPhone-11-1.jpg" />
               </Square>
@@ -414,7 +414,7 @@ export default function Home() {
               </Flex>
 
             </Flex>
-            <Flex direction="row" justifyContent="space-around"   >
+            <Flex direction="row" w="full" justifyContent="space-around"   >
               <Square bg="#f5f8fd" borderRadius="5px" size={30}>
                <Image src="https://www.gizmochina.com/wp-content/uploads/2019/09/Apple-iPhone-11-1.jpg" />
               </Square>
@@ -433,7 +433,7 @@ export default function Home() {
               </Flex>
 
             </Flex>
-            <Flex direction="row" justifyContent="space-around"  >
+            <Flex direction="row" w="full" justifyContent="space-around"  >
               <Square bg="#f5f8fd" borderRadius="5px" size={30}>
               <Image src="https://www.gizmochina.com/wp-content/uploads/2019/09/Apple-iPhone-11-1.jpg" />
               </Square>
