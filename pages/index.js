@@ -254,7 +254,7 @@ export default function Home() {
 
           <Box mt="9" position="relative" overflow="auto" borderRadius="10px" style={{
             border: "2px solid #E9F1FB",
-          }} w="100%" h="270" p="3">
+          }} w="100%"  p="3">
 
             <Text color="#273b71" fontWeight="bold" fontSize="md" mb="4" mr="3">Popular Products</Text>
 
@@ -428,9 +428,53 @@ export default function Home() {
 
          
 
-          <Flex justifyContent="space-between" width="full" alignItems="start" direction="column" borderRadius="10px" style={{
+          <Flex justifyContent="space-evenly" width="full" alignItems="start" direction="column" borderRadius="10px" style={{
             border: "2px solid #E9F1FB",
-          }} w="100%" height="270" p="3">
+          }} w="100%"  p="3">
+            <Flex w="full" direction="row" justifyContent="space-around"  transition="transform .2s"  _hover={{
+            transform: 'scale(1.1)',
+            color: "#357ae2"
+        }}  >
+              <Square bg="#f5f8fd" borderRadius="5px" size={30}>
+              <Image src="https://www.gizmochina.com/wp-content/uploads/2019/09/Apple-iPhone-11-1.jpg" />
+              </Square>
+
+
+              <Flex flex="1" direction="column" ml="5"  >
+                <Flex justifyContent="space-between">
+                  <Text color="#273b71" fontWeight="bold" fontSize="sm">Nikon D3350</Text>
+                  <Spacer />
+                  <Text  fontWeight="bold" fontSize="sm"  color="#55b391">+$80.00</Text>
+                </Flex>
+
+
+                <Text fontWeight="medium" fontSize="xs" color="#96a3c4">2 minutes Ago</Text>
+
+              </Flex>
+
+            </Flex>
+            <Flex w="full" direction="row" justifyContent="space-around"  transition="transform .2s"  _hover={{
+            transform: 'scale(1.1)',
+            color: "#357ae2"
+        }}  >
+              <Square bg="#f5f8fd" borderRadius="5px" size={30}>
+              <Image src="https://www.gizmochina.com/wp-content/uploads/2019/09/Apple-iPhone-11-1.jpg" />
+              </Square>
+
+
+              <Flex flex="1" direction="column" ml="5"  >
+                <Flex justifyContent="space-between">
+                  <Text color="#273b71" fontWeight="bold" fontSize="sm">Nikon D3350</Text>
+                  <Spacer />
+                  <Text  fontWeight="bold" fontSize="sm"  color="#55b391">+$80.00</Text>
+                </Flex>
+
+
+                <Text fontWeight="medium" fontSize="xs" color="#96a3c4">2 minutes Ago</Text>
+
+              </Flex>
+
+            </Flex>
             <Flex w="full" direction="row" justifyContent="space-around"  transition="transform .2s"  _hover={{
             transform: 'scale(1.1)',
             color: "#357ae2"
