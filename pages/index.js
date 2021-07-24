@@ -428,7 +428,7 @@ export default function Home() {
 
          
 
-          <Flex justifyContent="space-evenly" width="full" alignItems="start" direction="column" borderRadius="10px" style={{
+          <Flex justifyContent="space-evenly" overflow="auto" width="full" alignItems="start" direction="column" borderRadius="10px" style={{
             border: "2px solid #E9F1FB",
           }} w="100%"  p="3">
             <Flex w="full" direction="row" justifyContent="space-around"  transition="transform .2s"  _hover={{
