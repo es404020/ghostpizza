@@ -431,7 +431,8 @@ export default function Home() {
           <Flex justifyContent="space-evenly" overflow="auto" width="full" alignItems="start" direction="column" borderRadius="10px" style={{
             border: "2px solid #E9F1FB",
           }} w="100%"  p="3">
-            <Flex w="full" direction="row" justifyContent="space-around"  transition="transform .2s"  _hover={{
+           
+            <Flex w="full" direction="row" justifyContent="space-around" mb="5"  transition="transform .2s"  _hover={{
             transform: 'scale(1.1)',
             color: "#357ae2"
         }}  >
@@ -453,7 +454,7 @@ export default function Home() {
               </Flex>
 
             </Flex>
-            <Flex w="full" direction="row" justifyContent="space-around"  transition="transform .2s"  _hover={{
+            <Flex w="full" direction="row" justifyContent="space-around"  mb="5"  transition="transform .2s"  _hover={{
             transform: 'scale(1.1)',
             color: "#357ae2"
         }}  >
@@ -475,29 +476,7 @@ export default function Home() {
               </Flex>
 
             </Flex>
-            <Flex w="full" direction="row" justifyContent="space-around"  transition="transform .2s"  _hover={{
-            transform: 'scale(1.1)',
-            color: "#357ae2"
-        }}  >
-              <Square bg="#f5f8fd" borderRadius="5px" size={30}>
-              <Image src="https://www.gizmochina.com/wp-content/uploads/2019/09/Apple-iPhone-11-1.jpg" />
-              </Square>
-
-
-              <Flex flex="1" direction="column" ml="5"  >
-                <Flex justifyContent="space-between">
-                  <Text color="#273b71" fontWeight="bold" fontSize="sm">Nikon D3350</Text>
-                  <Spacer />
-                  <Text  fontWeight="bold" fontSize="sm"  color="#55b391">+$80.00</Text>
-                </Flex>
-
-
-                <Text fontWeight="medium" fontSize="xs" color="#96a3c4">2 minutes Ago</Text>
-
-              </Flex>
-
-            </Flex>
-            <Flex direction="row" w="full" justifyContent="space-around"  transition="transform .2s"  _hover={{
+            <Flex direction="row" w="full" justifyContent="space-around" mb="5"  transition="transform .2s"  _hover={{
             transform: 'scale(1.1)',
             color: "#357ae2"
         }}  >
@@ -519,7 +498,7 @@ export default function Home() {
               </Flex>
 
             </Flex>
-            <Flex direction="row" w="full" justifyContent="space-around"  transition="transform .2s"  _hover={{
+            <Flex direction="row" w="full" justifyContent="space-around"   mb="5" transition="transform .2s"  _hover={{
             transform: 'scale(1.1)',
             color: "#357ae2"
         }} >
