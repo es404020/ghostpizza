@@ -232,10 +232,10 @@ export default function Home() {
               <Text fontWeight="medium" fontSize="sm" color="#96a3c4">Total Orders</Text>
             </Box>
           </Grid>
-
+{/* ok */}
           <Box mt="9" borderRadius="10px" style={{
             border: "2px solid #E9F1FB",
-          }} w="100%" h="300" p="3"  >
+          }} w="100%" h="300" p="3" >
 
             <Flex direction="row" justifyContent="space-between">
 
