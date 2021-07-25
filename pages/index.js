@@ -428,7 +428,7 @@ export default function Home() {
             overflowX:"hidden",
             height:"30%"
 
-          }} w="100%" p="2">
+          }} w="100%" p="3">
            
             <Flex w="full" direction="row" justifyContent="space-around" mb="5"    >
               <Square bg="#f5f8fd" borderRadius="5px" size={30}>
@@ -487,7 +487,7 @@ export default function Home() {
               </Flex>
 
             </Flex>
-            <Flex direction="row" w="full" justifyContent="space-around"   mb="5" >
+            <Flex direction="row" w="full" justifyContent="space-around"   mb="1" >
               <Square bg="#f5f8fd" borderRadius="5px" size={30}>
               <Image src="https://www.gizmochina.com/wp-content/uploads/2019/09/Apple-iPhone-11-1.jpg" />
               </Square>
