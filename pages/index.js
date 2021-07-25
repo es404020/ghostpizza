@@ -332,8 +332,8 @@ export default function Home() {
           <Flex mt="12" direction="column" alignItems="center" justifyContent="center">
 
 
-            <Avatar size="2xl" bg=" #357ae2" mb="5" icon={<MdPerson color="white" fontSize="5.5rem" />} />
-            <Text display="block" mt="4" mb="5" fontSize="lg" color="#273b71" fontWeight="extrabold">Konter Pulsa</Text>
+            <Avatar size="2xl" bg=" #357ae2" mb="4" name="Prosper Otemuyiwa" src="https://bit.ly/prosper-baba" />
+            <Text display="block" mt="4" mb="5" fontSize="lg" color="#273b71" fontWeight="extrabold">Prosper Otemuyiwa</Text>
 
 
             <Flex justifyContent="space-around"  alignItems="center" borderRadius="10px" style={{
@@ -424,7 +424,11 @@ export default function Home() {
 
           <Flex justifyContent="space-evenly" overflow="auto" width="full" alignItems="start" direction="column" borderRadius="10px" style={{
             border: "2px solid #E9F1FB",
-          }} w="100%"  p="3">
+            overflowY:"auto",
+            overflowX:"hidden",
+            height:"30%"
+
+          }} w="100%" p="2">
            
             <Flex w="full" direction="row" justifyContent="space-around" mb="5"    >
               <Square bg="#f5f8fd" borderRadius="5px" size={30}>
