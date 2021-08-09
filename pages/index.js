@@ -58,7 +58,7 @@ export default function Home() {
             <Flex alignItems="start" mb="5" pt="5" >
               <HStack display="inline">
                 <Icon as={MdGroupWork} w={10} h={10} color="#357ae2" display="inline" />
-                <Text display="inline" alignSelf="center" color="#357ae2" mb="8" fontWeight="extrabold" pt={8} fontSize="xl">
+                <Text display="inline" alignSelf="center" color="#357ae2" mb="8" fontWeight="extrabold" display={["none","none","none","none","inline"]} pt={8} fontSize="xl">
 
 
                   Tumbas</Text>
@@ -70,7 +70,7 @@ export default function Home() {
               <ListItem color="#357ae2" fontWeight="semibold" style={{
                 borderRight: "4px solid #357ae2"
               }}>
-                <ListIcon as={MdDashboard} w={5} h={5} /> Overview
+                <ListIcon as={MdDashboard} w={5} h={5} /> <Text  display={["none","none","none","none","inline"]}>Overview</Text>
 
                 {/* <Text></Text> */}
 
@@ -83,7 +83,10 @@ export default function Home() {
         }}  >
 
 
-                <ListIcon as={MdReceipt} w={5} h={5} /> Orders
+                <ListIcon as={MdReceipt} w={5} h={5} />
+                <Text  display={["none","none","none","none","inline"]}>Orders</Text>
+                
+                 
 
 
               </ListItem>
@@ -93,7 +96,11 @@ export default function Home() {
         }} >
 
 
-                <ListIcon as={MdShoppingBasket} w={5} h={5} /> Products
+                <ListIcon as={MdShoppingBasket} w={5} h={5} />
+                
+                <Text  display={["none","none","none","none","inline"]}>Products</Text>
+                
+                
 
 
               </ListItem>
@@ -103,9 +110,11 @@ export default function Home() {
         }} >
 
 
-                <ListIcon as={MdSettings} w={5} h={5} /> Settings
+                <ListIcon as={MdSettings} w={5} h={5} /> 
 
-
+                <Text  display={["none","none","none","none","inline"]}>Settings</Text>
+                
+               
               </ListItem>
 
             </List>
@@ -122,16 +131,19 @@ export default function Home() {
         }}>
 
 
-                  <ListIcon as={MdSend} w={5} h={5} fontWeight="bold" /> Shipment
-
+                  <ListIcon as={MdSend} w={5} h={5} fontWeight="bold" /> 
+                  <Text  display={["none","none","none","none","inline"]}>Shipment</Text>
+                
 
                 </ListItem>
                 <ListItem fontWeight="medium" fontSize="sm" color="#96a3c4"  transition="transform .2s"  _hover={{
             transform: 'scale(1.1)',
             color: "#357ae2"
         }}>
-                  <ListIcon as={MdPeople} w={5} h={5} /> Employee
+                  <ListIcon as={MdPeople} w={5} h={5} /> 
 
+                  <Text  display={["none","none","none","none","inline"]}>Employee</Text>
+                
 
 
 
