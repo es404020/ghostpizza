@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Flex, Text,Image, Spacer, Heading, Progress, Box, Button, List, ListItem, ListIcon, HStack, Icon, InputGroup, InputLeftElement, Input, Grid, Select, Table, Circle, Tbody, Tfoot, Tr, Th, Td, Avatar, Square, position } from "@chakra-ui/react"
+import { Flex, Text,Image,Center, Spacer, Heading, Progress, Box, Button, List, ListItem, ListIcon, HStack, Icon, InputGroup, InputLeftElement, Input, Grid, Select, Table, Circle, Tbody, Tfoot, Tr, Th, Td, Avatar, Square, position } from "@chakra-ui/react"
 import Headers from '../components/layouts/Headers';
 import Body from '../components/layouts/Body';
 import { useRouter } from 'next/router';
@@ -41,7 +41,9 @@ export default function Home() {
     //   <Body />
     // </Box>
 
-    <Box  ml="2">
+    <>
+
+    <Box  ml="2" display={["none","none","none","block","block"]}>
       <Flex display="flex" direction="row" p="5" height="100%" alignItems="baseline" boxSizing="border-box" position="relative" maxW="100vw">
         <Flex w="14%" height="95vh" direction="column" style={{
           borderRight: "2px solid #E9F1FB",
@@ -432,7 +434,7 @@ export default function Home() {
            
             <Flex w="full" direction="row" justifyContent="space-around" mb="5"    >
               <Square bg="#f5f8fd" borderRadius="5px" size={30}>
-              <Image src="https://www.gizmochina.com/wp-content/uploads/2019/09/Apple-iPhone-11-1.jpg" />
+              <Image src="https://www.gizmochina.com/wp-content/uploads/2019/09/Apple-iPhone-11-1.jpg" name="phone" />
               </Square>
 
 
@@ -521,6 +523,15 @@ export default function Home() {
 
 
 
+    <Flex w="100%"  justifyContent="center" alignItems="center" display={["block","block","block","none","none"]}>
+
+
+<Center  height="80vh" >
+  Use on a Laptop mobile view coming soon 🙏
+</Center>
+  </Flex>
+
+</>
   )
 }
 
